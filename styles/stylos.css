@@ -1,0 +1,87 @@
+.p_box {
+  background: #skyblue;
+  color: #0ebd84;
+  padding: 15px;
+  border: 2px solid #bdfae6;
+  border-radius: 6px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.p_box font {
+  size: 1em;
+  weight: bold;
+}
+
+#tabla {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border: 1px solid deepskyblue;
+}
+
+br:hover {
+  background-color: #a8c1ca;
+}
+
+tr {
+  width: 25%;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid papayawhip;
+}
+
+td {
+  width: 25%;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid yellowgreen;
+}
+
+td:hover {
+  font-size: 1.5em;
+  color: red;
+}
+
+.flex_table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.flex_left {
+  background-color: aliceblue;
+  padding: 10px;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.flex_right {
+  background-color: aliceblue;
+  padding: 10px;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex_table {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=stylos.css.map */
